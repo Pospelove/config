@@ -23,7 +23,8 @@
 // information about the C++ standard library (e.g., version number and release date).
 #    include <version>
 #  else
-#    include <cstddef>
+#    include <cstdlib>
+#.   include <cstdio>
 #  endif
 #elif defined(__cplusplus)
 #  include <cstddef>
